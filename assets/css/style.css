@@ -34,7 +34,6 @@
 .content-area {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   text-align: center;
 }
 
@@ -88,7 +87,9 @@
   border-radius: 5px;
 }
 .choose-option-one:active,
-.choose-option-two:active {
+.choose-option-two:active,
+.choose-option-for-number:active,
+.pricing-table-item-main:active {
   background-color: #efefef;
 }
 .choose-option-two {
@@ -140,7 +141,6 @@
   margin-bottom: 10px;
 }
 .choose-option-for-number {
-  /* margin: 10px 0; */
   padding: 10px 0;
   width: 215px;
   text-align: center;
