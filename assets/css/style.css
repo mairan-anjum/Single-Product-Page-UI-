@@ -1,0 +1,131 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.h1-heading {
+  font-size: 36px;
+  line-height: 43px;
+  color: #303030;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.h2-heading {
+  font-size: 24px;
+  line-height: 27px;
+  color: #303030;
+  font-weight: 700;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.single-product-section {
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  width: 80%;
+  margin: auto;
+}
+
+.content-area {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  text-align: center;
+}
+
+.product-img-class {
+  max-width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 4px;
+}
+
+.product-description > p {
+  text-align: center;
+  font-size: 16px;
+  color: #303030;
+  line-height: 27px;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.product-variation {
+  padding-top: 50px;
+}
+#variation {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.variation-paper-size {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border: 1px #000 solid;
+  padding: 40px;
+}
+.variation-heading-div {
+  padding-bottom: 29px;
+}
+.choose-option {
+  display: flex;
+  gap: 10px;
+}
+.choose-option-one {
+  margin: 10px 0;
+  padding: 30px 10px;
+  width: 22.3vw;
+  text-align: center;
+  border: 2px #efefef solid;
+  cursor: pointer;
+  border-radius: 5px;
+  /* background-color: white; */
+}
+.choose-option-one:active,
+.choose-option-two:active {
+  background-color: #efefef;
+}
+.choose-option-two {
+  margin: 10px 0;
+  padding: 30px 10px;
+  width: 22.3vw;
+  text-align: center;
+  border: 2px #efefef solid;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.choose-option-text {
+  margin-top: 14px;
+  font-size: 16px;
+  color: #303030;
+  line-height: 27px;
+}
+.variation-paper-selected-value {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border: 1px #000 solid;
+  padding: 40px;
+}
+.selected-option-heading {
+  padding-bottom: 19px;
+}
+.clicked-value-display {
+  font-size: 16px;
+  color: #303030;
+  line-height: 27px;
+  font-weight: 500;
+}
+.for-option-changing {
+  font-size: 16px;
+  color: #dfa46a;
+  line-height: 27px;
+  font-weight: 500;
+  cursor: pointer;
+}
